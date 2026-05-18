@@ -13,7 +13,7 @@
 ### Write Tests for Provided Functions
 
 1. **Fork** this repository and **clone** your fork
-2. Run `npm install` to install dependencies
+2. Run `pnpm install` to install dependencies
 3. The `src/` directory contains implemented functions with **no tests**
 4. Your job: write comprehensive tests in `src/__tests__/`
 
@@ -38,7 +38,7 @@
 - Test edge cases: empty arrays, single-element arrays
 
 #### Step 5: Run Coverage
-- Run `npm run test:coverage`
+- Run `pnpm test:coverage`
 - Aim for >80% coverage across all files
 
 ## Acceptance Criteria
@@ -47,7 +47,7 @@
 - [ ] Each function has at least 3 test cases (happy path + edge cases)
 - [ ] Tests use `describe` blocks for grouping
 - [ ] At least one test uses `toThrow` for error cases
-- [ ] `npm test` passes with all tests green
+- [ ] `pnpm test` passes with all tests green
 - [ ] Code coverage >80%
 
 ## File Structure
@@ -74,9 +74,9 @@ codecamp-exercise-vitest/
 ## Commands
 
 ```bash
-npm install          # Install dependencies
+pnpm install          # Install dependencies
 npm test             # Run all tests
-npm run test:coverage  # Run tests with coverage report
+pnpm test:coverage  # Run tests with coverage report
 ```
 
 ## Tips
